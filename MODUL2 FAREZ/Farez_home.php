@@ -14,8 +14,8 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav m-auto">
-                <a class="nav-link active" aria-current="page" href="/MODUL2 FAREZ/Farez_home.php">Home</a>
-                <a class="nav-link" href="/MODUL2 FAREZ/Farez_booking.php">Booking</a>
+                <a class="nav-link active" aria-current="page" href="Farez_home.php">Home</a>
+                <a class="nav-link" href="Farez_booking.php">Booking</a>
             </ul>
             </div>
         </div>
@@ -36,7 +36,7 @@
                         <li class="list-group-item fw-bold">Manual</li>                            
                     </ul>
                     <div class="card-footer text-center">
-                        <a class="btn btn-primary" href="/MODUL2 FAREZ/Farez_booking.php?nomor=1">Book now</a>
+                        <a class="btn btn-primary" href="Farez_booking.php?nomor=1">Book now</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                         <li class="list-group-item fw-bold">Automatic</li>                                
                     </ul>
                     <div class="card-footer text-center">
-                    <a class="btn btn-primary" href="/MODUL2 FAREZ/Farez_booking.php?nomor=2">Book now</a>
+                    <a class="btn btn-primary" href="Farez_booking.php?nomor=2">Book now</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         <li class="list-group-item fw-bold">Automatic</li>                         
                     </ul>
                     <div class="card-footer text-center">
-                    <a class="btn btn-primary" href="/MODUL2 FAREZ/Farez_booking.php?nomor=3">Book Now</a>
+                    <a class="btn btn-primary" href="Farez_booking.php?nomor=3">Book Now</a>
                     </div>  
                 </div>
             </div>

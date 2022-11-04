@@ -15,8 +15,8 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav m-auto">
-                <a class="nav-link" aria-current="page" href="/MODUL2 FAREZ/Farez_home.php">Home</a>
-                <a class="nav-link active" href="/MODUL2 FAREZ/Farez_booking.php">Booking</a>
+                <a class="nav-link" aria-current="page" href="Farez_home.php">Home</a>
+                <a class="nav-link active" href="Farez_booking.php">Booking</a>
             </ul>
             </div>
         </div>
@@ -40,9 +40,9 @@
                     ?>         
                 </div>
                 <div class="col-6">
-                    <form action="/MODUL2 FAREZ/Farez_mybooking.php" method="post">
+                    <form action="Farez_mybooking.php"  >
                     <label for="">Name</label>
-                    <input type="text" class="form-control form-control-readonly" readonly value="FAREZ_1202204324" name="nama">
+                    <input type="text" class="form-control form-control-readonly" readonly value="FAREZ_1202204324" name="NAME">
 
                     <label class="mt-2" for="">Book Date</label>
                     <input type="date" class="form-control" name="date">
@@ -60,7 +60,7 @@
                         <option value="Toyota Corolla Cross Hybrid">Toyota Corolla Cross Hybrid</option>
                     </select>
                     <label class="mt-2" for="">Phone Number</label>
-                    <input type="number" class="form-control " name="hp">
+                    <input type="number" class="form-control " name="NUMBER">
 
                     <label class="mt-2" for="">Add Service(s)</label>
                     <div class="form-check ">
