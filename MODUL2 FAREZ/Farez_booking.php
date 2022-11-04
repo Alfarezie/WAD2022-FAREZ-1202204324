@@ -40,9 +40,9 @@
                     ?>         
                 </div>
                 <div class="col-6">
-                    <form action="Farez_mybooking.php"  >
+                    <form action="Farez_mybooking.php" method="post">
                     <label for="">Name</label>
-                    <input type="text" class="form-control form-control-readonly" readonly value="FAREZ_1202204324" name="NAME">
+                    <input type="text" class="form-control form-control-readonly" readonly value="FAREZ_1202204324" name="nama">
 
                     <label class="mt-2" for="">Book Date</label>
                     <input type="date" class="form-control" name="date">
@@ -60,7 +60,7 @@
                         <option value="Toyota Corolla Cross Hybrid">Toyota Corolla Cross Hybrid</option>
                     </select>
                     <label class="mt-2" for="">Phone Number</label>
-                    <input type="number" class="form-control " name="NUMBER">
+                    <input type="number" class="form-control " name="hp">
 
                     <label class="mt-2" for="">Add Service(s)</label>
                     <div class="form-check ">
