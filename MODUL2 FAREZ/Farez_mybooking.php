@@ -14,8 +14,8 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav m-auto">
-                <a class="nav-link" aria-current="page" href="/MODUL2 FAREZ/Farez_home.php">Home</a>
-                <a class="nav-link" href="/MODUL2 FAREZ/Farez_booking.php">Booking</a>
+                <a class="nav-link" aria-current="page" href="Farez_home.php">Home</a>
+                <a class="nav-link" href="Farez_booking.php">Booking</a>
             </ul>
             </div>
         </div>
