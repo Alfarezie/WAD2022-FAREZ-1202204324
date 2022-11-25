@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <div class="col-6">
-    <form action="Farez_mybooking.php" method="post">
+    <form action="/MODUL3 FAREZ/config/insert.php" method="post" enctype="multipart/form-data">
     <label for="">Nama Mobil</label>
     <input type="text" class="form-control form-control-readonly" readonly value="FAREZ_1202204324" name="mobil">
 

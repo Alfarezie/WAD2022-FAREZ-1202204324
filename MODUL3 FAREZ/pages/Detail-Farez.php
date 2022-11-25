@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php
-    $koneksi=mysqli_connect("localhost", "root", "", "modul3");
+    $koneksi=mysqli_connect("localhost:3315", "root", "", "modul3");
     $id=$_GET['id'];
     $read=mysqli_query($connect, "SELECT * FROM showroom_farez_table WHERE id_mobil=$id");
     $pilih=mysqli_fetch_array($query);

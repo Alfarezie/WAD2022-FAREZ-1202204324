@@ -1,5 +1,5 @@
 <?php
-$connection = new mysqli("localhost", "root", "", "modul3", 3315);
+$connection = new mysqli("localhost:3315", "root", "", "modul3");
 
 if (!$connection) {
   die("Koneksi Error: " . $connection->connect_error);

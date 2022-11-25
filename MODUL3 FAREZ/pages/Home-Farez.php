@@ -11,8 +11,8 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="/MODUL3 FAREZ/Home-Farez.php">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="/MODUL3 FAREZ/ListCar-Farez.php">MyCar</a></li>
+            <li class="nav-item"><a class="nav-link" href="/MODUL3 FAREZ/pages/Home-Farez.php">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/MODUL3 FAREZ/pages/ListCar-Farez.php">MyCar</a></li>
         </ul>
     </nav>
     <div class="row mx-auto w-75 p-3 mt-2">
@@ -20,7 +20,7 @@
             <h1><b>Selamat Datang Di Show Room Farez</b></h1>
             <p>At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus</p>
             <?php
-                $connect=mysqli_connect("localhost", "root", "", "modul3");
+                $connect=mysqli_connect("localhost:3315", "root", "", "modul3");
                 $query=mysqli_query($connect, "SELECT * FROM showroom_farez_table");
                 echo '<a class="btn btn-primary" href="/MODUL3 FAREZ/pages/Add-Farez.php">MyCar</a>';
             ?>
