@@ -11,8 +11,8 @@
 <body>
     <nav class="navbar navbar-expand-lg">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/MODUL3 FAREZ/pages/Home-Farez.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/MODUL3 FAREZ/pages/ListCar-Farez.php">MyCar</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/Home-Farez.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/ListCar-Farez.php">MyCar</a></li>
             </ul>
         </div>
     </nav>
@@ -25,7 +25,7 @@
             <div class='row row-cols-1 row-cols-md-2 g-4'>
                 <div class='col'>
                     <div class='card'>
-                        <img class='card-img-top' src='/MODUL3 FAREZ/images/<?php echo $tampil['foto_mobil']?>' alt='No Image'></img>
+                        <img class='card-img-top' src='../images/<?php echo $tampil['foto_mobil']?>' alt='No Image'></img>
                         <div class='card-body'>
                             <h6 class='card-title'><center>
                                 <b><?php echo $tampil['nama_mobil']?></b>
@@ -35,8 +35,8 @@
                         </div>
 
                         <div class='card-footer'>
-                            <a href='/MODUL3 FAREZ/pages/Detail-Farez.php?id=<?php echo $tampil['id_mobil']?>' button class='btn btn' id='Details'>Detail</a>
-                            <a href='/MODUL3 FAREZ/config/delete.php?id=<?php echo $tampil['id_mobil']?>' button class='btn btn' id='Delete'>Delete</a>
+                            <a href='../pages/Detail-Farez.php?id=<?php echo $tampil['id_mobil']?>' button class='btn btn' id='Details'>Detail</a>
+                            <a href='../config/delete.php?id=<?php echo $tampil['id_mobil']?>' button class='btn btn' id='Delete'>Delete</a>
                         </div>
                     </div>
                 </div>
