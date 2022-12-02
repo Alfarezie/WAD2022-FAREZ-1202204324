@@ -16,7 +16,7 @@
     <div class="d-flex justify-content-center align-items-center" style="margin-top: 50px; margin-bottom: 50px;">
         <div class="col-md-3">
             <div class="card">
-                <form action="../config/login.php">
+                <form action="../config/login.php" method="POST">
                     <div class="card-body">
                         <h5 class="card-title" style="text-align: left;">Login</h5>
                         <hr>
