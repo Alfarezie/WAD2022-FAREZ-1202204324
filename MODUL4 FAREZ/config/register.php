@@ -18,7 +18,7 @@
                 header("location:../pages/Register-Farez.php");
             }
         }else{
-            $tambah=mysqli_query($koneksi, "INSERT INTO user_farez (nama, email, no_hp, password) VALUES ('$username', '$email', '$no_hp', '$password')");
+            $tambah=mysqli_query($koneksi, "user_farez (nama, email, no_hp, password) VALUES ('$username', '$email', '$no_hp', '$password')");
             if($tambah){
                 $_SESSION['register'] = 'berhasil';
                 header("location:../pages/Login-Farez.php");
