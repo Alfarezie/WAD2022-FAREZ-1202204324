@@ -6,7 +6,7 @@ $koneksi=mysqli_connect("localhost:3315", "root", "", "wad_modul4_farez");
 $email = $_POST['email'];
 $password = $_POST['pass'];
 
-$cek=mysqli_query($koneksi, "SELECT * FROM user_farez WHERE email='$email'");
+$cek=mysqli_query($koneksi, "SELECT user_farez email='$email'");
 
 if (mysqli_num_rows($cek) > 0) {
     $result = mysqli_fetch_assoc($cek);
