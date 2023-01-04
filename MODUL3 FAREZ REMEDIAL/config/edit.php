@@ -10,6 +10,6 @@
     $Bayar=$_POST['bayar'];
     $query=mysqli_query($connect, "UPDATE showroom_farez_table SET nama_mobil='$Makanan', pemilik_mobil='$Nama', tanggal_beli='$Tanggal', deskripsi='$Deskripsi', foto_mobil='$Foto', status_pembayaran='$Bayar' WHERE id_mobil='$id'");
     if($query){
-        header("location:../pages/ListCar-Farez.php");
+        header("location:../pages/Order-Farez.php");
     }
 ?>
